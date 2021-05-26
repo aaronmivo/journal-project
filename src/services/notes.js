@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = '/notes'
+const baseUrl = 'https://chingu-journal-solo.herokuapp.com/notes'
 
 const getNotes = () => {
     return axios.get(`${baseUrl}`)

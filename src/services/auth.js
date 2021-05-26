@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = "/auth"
+const baseUrl = "https://chingu-journal-solo.herokuapp.com/auth"
 
 const register = async (object) => {
     await axios.post(`${baseUrl}/register`, object);
